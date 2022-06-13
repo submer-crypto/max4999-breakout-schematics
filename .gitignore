@@ -1,0 +1,13 @@
+*.b#*
+*.s#*
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GKO
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+.DS_Store
