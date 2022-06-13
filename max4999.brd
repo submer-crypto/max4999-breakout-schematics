@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -226,6 +226,98 @@
 <text x="2.54" y="19.05" size="0.635" layer="22" rot="MR0" align="bottom-right">D0_0</text>
 <text x="10.16" y="18.7325" size="0.635" layer="22" rot="MR0">GND</text>
 <text x="10.16" y="21.2725" size="0.635" layer="22" rot="MR0">D5_1</text>
+<polygon width="0" layer="21">
+<vertex x="5.900984375" y="37.301575" curve="-90"/>
+<vertex x="6.7990125" y="37.301575"/>
+<vertex x="9.044075" y="35.0565125" curve="-90"/>
+<vertex x="9.044075" y="34.158484375"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="3.655921875" y="34.158484375" curve="-90"/>
+<vertex x="3.655921875" y="35.0565125"/>
+<vertex x="5.900984375" y="37.301575" curve="-90"/>
+<vertex x="6.7990125" y="37.301575"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.7990125" y="31.913421875" curve="-90"/>
+<vertex x="5.900984375" y="31.913421875"/>
+<vertex x="3.655921875" y="34.158484375" curve="-90"/>
+<vertex x="3.655921875" y="35.0565125"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="9.044075" y="35.0565125" curve="-90"/>
+<vertex x="9.044075" y="34.158484375"/>
+<vertex x="6.7990125" y="31.913421875" curve="-90"/>
+<vertex x="5.900984375" y="31.913421875"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.7990125" y="36.40355"/>
+<vertex x="5.1152125" y="34.719753125" curve="90"/>
+<vertex x="5.1152125" y="34.49524375"/>
+<vertex x="5.900984375" y="33.709471875"/>
+<vertex x="5.451971875" y="33.260459375"/>
+<vertex x="5.900984375" y="32.811446875"/>
+<vertex x="6.686759375" y="33.59721875" curve="90"/>
+<vertex x="6.686759375" y="33.821725"/>
+<vertex x="5.900984375" y="34.6075"/>
+<vertex x="7.248025" y="35.9545375"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.35" y="35.0565125"/>
+<vertex x="7.6970375" y="33.709471875"/>
+<vertex x="8.5950625" y="34.6075"/>
+<vertex x="7.248025" y="35.9545375"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.23774375" y="36.740309375" curve="-90"/>
+<vertex x="6.462253125" y="36.740309375"/>
+<vertex x="6.35" y="36.8525625"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.686759375" y="36.515803125" curve="-90"/>
+<vertex x="6.686759375" y="36.291296875"/>
+<vertex x="6.7990125" y="36.40355"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="4.2171875" y="34.719753125" curve="90"/>
+<vertex x="4.2171875" y="34.49524375"/>
+<vertex x="4.104934375" y="34.6075"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.78873125" y="33.821725" curve="-90"/>
+<vertex x="5.78873125" y="33.59721875"/>
+<vertex x="5.900984375" y="33.709471875"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.564225" y="33.3727125" curve="-90"/>
+<vertex x="5.33971875" y="33.3727125"/>
+<vertex x="5.451971875" y="33.260459375"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.462253125" y="34.944259375" curve="90"/>
+<vertex x="6.23774375" y="34.944259375"/>
+<vertex x="6.35" y="35.0565125"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.0132375" y="34.719753125" curve="90"/>
+<vertex x="6.0132375" y="34.49524375"/>
+<vertex x="5.900984375" y="34.6075"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.584784375" y="33.821725" curve="-90"/>
+<vertex x="7.584784375" y="33.59721875"/>
+<vertex x="7.6970375" y="33.709471875"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.0132375" y="32.9237" curve="90"/>
+<vertex x="6.0132375" y="32.69919375"/>
+<vertex x="5.900984375" y="32.811446875"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.462253125" y="32.4746875" curve="-90"/>
+<vertex x="6.23774375" y="32.4746875"/>
+<vertex x="6.349996875" y="32.362434375"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
